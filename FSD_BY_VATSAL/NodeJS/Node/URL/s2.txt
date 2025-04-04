@@ -1,0 +1,15 @@
+{
+  "d": {
+    "a": 10,
+    "b": 20,
+    "c": [
+      30,
+      10
+    ]
+  },
+  "result": {
+    "addition": 30,
+    "subtraction": 10,
+    "multiplication": 300
+  }
+}

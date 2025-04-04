@@ -1,0 +1,8 @@
+var fs = require("fs")
+fs.writeFileSync("node/source.txt","Hello world")
+data = fs.readFileSync("node/source.txt","UTF-8")
+console.log(data)
+d=fs.readFileSync("node/source.txt","UTF-8")
+fs.writeFileSync("node/source1.txt",d)
+data1 = fs.readFileSync("node/source1.txt","UTF-8")
+console.log(data1)
